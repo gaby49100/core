@@ -14,6 +14,9 @@ from .atlantic_domestic_hot_water_production_mlb_component import (
 from .atlantic_domestic_hot_water_production_v2_io_component import (
     AtlanticDomesticHotWaterProductionV2IOComponent,
 )
+from .atlantic_domestic_hot_water_production_v2_ce_flat_io_component import (
+    AtlanticDomesticHotWaterProductionV2CEFlatIOComponent,
+)
 from .atlantic_pass_apc_dhw import AtlanticPassAPCDHW
 from .domestic_hot_water_production import DomesticHotWaterProduction
 from .hitachi_dhw import HitachiDHW
@@ -60,5 +63,8 @@ CONTROLLABLE_NAME_TO_WATER_HEATER_ENTITY = {
     ),
     "io:AtlanticDomesticHotWaterProductionV2_CETHI_V4_IOComponent": (
         AtlanticDomesticHotWaterProductionV2IOComponent
+    ),
+      "io:AtlanticDomesticHotWaterProductionV2_CE_FLAT_C2_IOComponent": (
+          AtlanticDomesticHotWaterProductionV2CEFlatIOComponent
     ),
 }
